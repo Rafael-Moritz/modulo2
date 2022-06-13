@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+	<title>ETAPA 7</title>
+	<link rel="stylesheet" href="style.css" />	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+
+</head>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="estilo.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="curriculo.js"></script>
+    <title>Currículo Rafael Moritz</title><br><scale=3.0>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+        $(document).ready(function(){
+          $("button").click(function(){
+                $("#ftp").fadeIn(3000);
+                $("#ftp").attr("src", "./Foto perfil.jpg");
+          });
+        });
+        </script>
+        <button>Clique para a foto aparecer</button><br><br>
+        <span class="circle-image">
+            <img id="ftp" src=""/>
+           </span>
+
+    <h1>Rafael Lupovici Moritz</h1>
+    <p1>Engenharia de Computação - Inteli</p1>
+</head>
+<br><br>
+<p2><b>Formação:</b><br>
+    Ensino Médio completo na Escola Beit Yaacov
+</p2>
+<br><br>
+<p3><b>Qualificações:</b><br> 
+    Programa em Python, R, Godot e JavaScript
+    </p3>
+<br><br>
+<p4><b> Experiência profissional:</b><br>
+    Finalizou o primeiro módulo no Inteli, onde junto com um grupo conseguiu criar um<br>
+    jogo capaz de ensinar política de forma divertida para a ONG Constituição na Escola</p4>
+    <br><br>
+    <p5><b>Idiomas:</b><br>
+    * Inglês (Fluente)<br>
+    * Espanhol(Intermediário)<br>
+    * Hebraico (Intermediário)</p5>
+<br><br>
+<p6><b>Contatos:</b><br>
+<i>rafael.moritz@sou.inteli.edu.br</i><br>
+<a href="https://br.linkedin.com/in/rafael-moritz-49ba45237?trk=people-guest_people_search-card">
+    <img src="https://cdn.icon-icons.com/icons2/3041/PNG/512/linkedin_logo_icon_189225.png" width = "50px">
+</a></p6>
+<form>
+    <p7> <br><label for="nota">INSIRA UMA NOTA DE 1 A 5:</label>
+    <div class="insert" onclick="user.insert()">Inserir</div>
+    <br>
+   
+<div id="getDB" class="sections"></div>
+    </form>
+		<button onclick="TestGETDB()" class="button-get-db">GET FROM DB</button>
+	</div>
+</body>
+</html>
